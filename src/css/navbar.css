@@ -1,0 +1,144 @@
+.navbar {
+  background-image: url(https://test.create.diagnal.com/images/nav_bar.png);
+  background-repeat: repeat-x;
+  height: auto;
+  background-position-y: -75px;
+  color: #ffffff;
+  width: 100%;
+}
+
+.naviarrow {
+  background-image: url(https://test.create.diagnal.com/images/Back.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  background-position: 0px 3px;
+  margin-right: 10px;
+}
+
+.searchicon {
+  width: 35px;
+  height: 35px;
+  background: url(https://test.create.diagnal.com/images/search.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  float: right;
+  position: absolute;
+  right: 10px;
+}
+
+.clearicon {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/close-icon.png);
+}
+
+.searchinput {
+  margin-left: 0px;
+  padding: 8px 10px;
+  border-radius: 15px;
+  border: none;
+  width: 100%;
+}
+
+.close-icon {
+  border: 1px solid transparent;
+  background-color: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  outline: 0;
+  cursor: pointer;
+}
+
+.close-icon:after {
+  content: "X";
+  display: block;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  background-color: #171717;
+  z-index: 1;
+  right: 30px;
+  top: -1px;
+  bottom: 0;
+  margin: auto;
+  padding: 0px;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.results {
+  color: #ffffff;
+  text-align: center;
+}
+
+.search-box:not(:valid) ~ .close-icon {
+  display: none;
+}
+
+@media (min-width: 300px) and (max-width: 992px) {
+  .navbar {
+    background-image: url(https://test.create.diagnal.com/images/nav_bar.png);
+    background-repeat: repeat-x;
+    padding: 20px 0 !important;
+    background-position-y: -45px;
+    color: #ffffff;
+    height: auto;
+  }
+
+  .search-bar {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+  .searchinput {
+    margin-left: 0px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+  }
+
+  .close-icon {
+    position: absolute;
+    top: 6px;
+  }
+
+  .search-input-container {
+    width: 100%;
+    position: relative;
+  }
+}
+
+@media (min-width: 992px) {
+  .search-bar {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+  .searchinput {
+    margin-left: 0px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+  }
+
+  .close-icon {
+    position: absolute;
+    top: 6px;
+  }
+
+  .search-input-container {
+    width: 100%;
+    position: relative;
+  }
+}

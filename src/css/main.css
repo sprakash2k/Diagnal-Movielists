@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+
+.diagnal h3 {
+  font-weight: normal;
+  padding-bottom: 2%;
+}
+
+.diagnal .container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content {
+  font-family: "Titillium Web";
+  color: #ffffff;
+  font-weight: 200;
+  margin-bottom: 50px;
+  flex: 0 0 auto;
+  width: 33.33333333% !important;
+}
+
+.txt-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.items-loaded {
+  position: fixed;
+  z-index: 9999;
+  right: 5%;
+  font-size: 20px;
+  background-color: #5fcdbc;
+  color: #000;
+  font-weight: bold;
+  width: 60px!important;
+  height: 60px;
+  border-radius: 30%;
+  bottom: 5%;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.missing-img {
+  width: 100%;
+  aspect-ratio: 2/3;
+}
+
+.pre-loader{
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+  .diagnal h3 {
+    margin-top: 3px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
